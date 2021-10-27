@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+
+body {
+  background-color: black;
+}
+
+/* メイン */
+#main-wrapper {
+  width: 100%;
+}
+
+#main-content-wrap {
+  width: 60%;
+  text-align: center;
+  float: left;
+  margin-top: 2%;
+  display: inline-block;
+}
+/* 検索フォーム */
+#search-wrapper {
+
+}
+
+#search-forms {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: white; */
+}
+
+.search-form {
+  width: 80%;
+  font-size: 25px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.search-submit {
+  font-size: 24px;
+  padding: 2px;
+  background-color: white;
+}
+
+.url-search {
+  margin-top: 5%;
+}
+/* ここまで検索フォーム */
+
+/* スキル検索リスト */
+#skill-search-wrap {
+  margin: 5% auto;
+  width: 100%;
+}
+
+#skill-search-wrap h3 {
+  color: white;
+}
+
+#skills-wrap {
+  width: 90%;
+  height: 400px;
+  margin: 2% auto 0 auto;
+  /* text-align: left; */
+  text-align: center;
+  border: 1px solid white;
+  overflow-y: scroll;
+  padding: 15px 0 15px 0;
+}
+
+.skill-list {
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.skill-list:hover {
+    color: skyblue;
+}
+/* ここまでスキル検索リスト */
+
+/* 右側の同じスキルを持ったユーザーリスト */
+#side-menu-wrapper {
+  display: inline-block;
+  width: 40%;
+  background-color: green;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 3%;/*フッターとの間*/
+}
+
+.side-menu-info {
+  text-align: center;
+}
+
+#same-skill-users-wrap {
+  height: 550px;
+  margin-top: 2%;
+  overflow-y: scroll;
+}
+
+.same-skill-user {
+  display: block;
+  padding-left: 10px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+  text-decoration: none;
+}
+
+.same-skill-user-info-wrap {
+  display: flex;
+  max-width: 95%;
+}
+
+.same-skill-user-info-wrap .user-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  position: relative;
+}
+
+.same-skill-user-info-wrap .user-info {
+  margin-left: 20px;
+}
+
+.same-skill-user-info-wrap .user-info p {
+  color: white;
+  word-break: break-all;
+}
+
+.same-skill-user-info-wrap .user-info .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* ここまで同じスキルを持ったユーザーリスト */

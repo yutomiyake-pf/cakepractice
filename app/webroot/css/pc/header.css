@@ -1,0 +1,24 @@
+/* ヘッダー */
+header {
+  width: 100%;
+  background-color: green;
+}
+
+#header-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 100px;
+  color: blue;
+  text-decoration: none;
+}
+
+.header-icon {
+  float: right;
+  margin: 20px;
+  color: blue;
+}
+/* ここまでヘッダー */

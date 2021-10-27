@@ -1,0 +1,14 @@
+.session-wrap {
+    background-color: rgba(5, 229, 251, 0.5);
+    position: absolute;
+    top: 100;
+    width: 100%;
+}
+
+#flashMessage {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
